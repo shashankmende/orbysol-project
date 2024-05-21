@@ -284,11 +284,13 @@ option {
 }
 
 .save-button {
-    width: 180px;
+    
     padding: 8px;
     border-radius: 6px;
     background-color: blue;
     color: #ffffff;
     font-size: 18px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
 }

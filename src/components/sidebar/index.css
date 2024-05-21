@@ -29,18 +29,23 @@ ul{
 
     margin-top: 20px;
 }
-
 li{
-    min-width: 200px;
+    list-style-type: none;
+}
+
+button{
+    width: 250px;
     /* background-color: #0AC60A; */
     
     border-radius: 8px;
     padding: 10px;
     display: flex;
     align-items: center;
-    cursor: pointer;
+    
     margin-bottom: 20px;
     text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
     
     
 }
@@ -49,22 +54,29 @@ a{
     text-decoration: none;
 }
 
-li img {
+button img {
     color: white;
     margin-right: 20px;
 }
 
-li button {
+button p{
     background-color: transparent;
     font-family: Arial, Helvetica,sans-serif;
     font-size: 18px;
     color: black;
     border: none;
-    cursor: pointer;
+    
     
     
 }
 
-Link{
+.active-css {
+
+    background-color: #0AC60A;
     
+}
+
+.button-active-css {
+
+    color: #ffffff;
 }
